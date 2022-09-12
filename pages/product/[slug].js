@@ -111,7 +111,7 @@ export default function ProductScreen(props) {
                   </Typography>
                 </ListItem>
                 <ListItem>Category: {product.category}</ListItem>
-                <ListItem>Weight: {product.weight}</ListItem>
+                <ListItem>Weight: {product.weight} kg.</ListItem>
                 <ListItem>
                   <Rating value={product.rating} readOnly></Rating>
                   <Typography sx={classes.smallText}>
